@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "WORKFLOWS_TENANT_ID": "<tenant-id>",
+    "WORKFLOWS_SUBSCRIPTION_ID": "<subscription-id>",
+    "WORKFLOWS_RESOURCE_GROUP_NAME": "<rg-name>",
+    "WORKFLOWS_LOCATION_NAME": "<location-with-no-space>",
+    "WORKFLOWS_MANAGEMENT_BASE_URI": "https://management.azure.com/"
+  }
+}
