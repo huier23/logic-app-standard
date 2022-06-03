@@ -15,9 +15,6 @@
                 "kind": "http",
                 "inputs": {
                     "statusCode": "@outputs('HTTP')['statusCode']",
-                    "headers": {
-                        "devops": "0603"
-                    },
                     "body": "@body('HTTP')"
                 },
                 "runAfter": {
